@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Projects{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    color: blue;
+}
+
+.listItems {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navigationLinks{
+    text-decoration: none;
+    color : rgb(15, 15 ,14);
+    transition: all 0.3s;
+}
+
+.navigationLinks:hover{
+    color:white;
+}
+
+.primaryButton{
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    justify-content: space-around;
+}
+
+.primaryButton:hover{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border: 1px solid rgb(238,55, 44);
+}
+
+.heroSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    justify-content: center;  
+    background-image: url(./IMAGE/yellow-sport-car-with-black-autotuning-road.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 500px;
+}
+#Home{
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    justify-content: center;
+}
+.paragraph{
+    font-size: 40px;
+    margin: 20px 0;
+    color: white;
+}
+
+.Container .learnMore{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: darkgreen;
+}
+
+.Container .shopNow{
+    border: 3px solid darkgray;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.US{
+    margin-left: 80px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 40px;
+    width: 50%;
+    color: black;
+}
+
+.intro{
+    font-size: 60px;
+    padding: 20px 8px 20px;
+    color: black;
+}
+
+#AboutUs{
+    flex-direction: row;
+    display: flex;
+}
+
+#CATEGORIES{
+    font-size: 40px;
+    margin-left: 800px;
+    color: white;
+    text-decoration: underline;
+}
+
+.cars, .cards{
+    margin-left: 870px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.cards{
+    display: grid;
+    height: fit-content;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 10rem;
+}
+.card1{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CTA{
+    margin-bottom: 20px;
+}
+.box-1{
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 18px;
+}
+.jet{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.Goods .cards{
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+}
+
+.PHONES{
+    margin-left: 870px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.card2{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CTA{
+    margin-bottom: 20px;
+}
+.box-1{
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 18px;
+}
+.jet{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.Watches{
+    margin-left: 870px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.card3{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CTA{
+    margin-bottom: 20px;
+}
+.box-1{
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 18px;
+}
+.jet{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.LAPTOP{
+    margin-left: 870px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.card4{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CTA{
+    margin-bottom: 20px;
+}
+.box-1{
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 18px;
+}
+.jet{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.ACCESSORIES{
+    margin-left: 870px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.card5{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CTA{
+    margin-bottom: 20px;
+}
+.box-1{
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 18px;
+}
+.jet{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+h2{
+    padding: 20px 30px;
+}
+
+.ContactUs{
+    background-color: #00A4FF;
+    color: black;
+    text-align: center;
+}
+
+.emailadress{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bi {
+    margin-left: 10px;
+    font-size: 40px;
+    color: black;
+}

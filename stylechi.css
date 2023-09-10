@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.cards{
+    display: flex;
+    gap: 3rem;
+    height: fit-content;
+}
+
+.box-2{
+    height: 500px;
+    width: 600px;
+}
+
+.box-3{
+    height: 500px;
+    width: 600px;
+}
+
+.box-4{
+    height: 500px;
+    width: 600px;
+}
+
+.box-5{
+    height: 500px;
+    width:  600px;
+}
+
+.box-6{
+    height: 500px;
+    width:  700px;
+}
+
+.box-7{
+    height: 500px;
+    width:  700px;
+}.box-8{
+    height: 500px;
+    width:  600px;
+}
+
+.box-9{
+    height: 500px;
+    width:  600px;
+}
+
+.box-10{    
+    height: 500px;
+    width:  600px;
+}
+
+.box-11{
+    height: 500px;
+    width:  600px;
+}
+
+.box-12{    
+    height: 500px;
+    width:  600px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
